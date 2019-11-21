@@ -17,6 +17,7 @@ con.connect(function(err) {
   console.log("Connected!");
 });
 
+
 app.use(bodyParser.json())
 
 app.listen(3000); 
