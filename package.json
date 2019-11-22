@@ -6,11 +6,15 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
-    "mysql": "^2.17.1",
-    "nodemon": "^2.0.0"
+    "mysql2": "^2.0.1",
+    "nodemon": "^2.0.0",
+    "sequelize": "^5.21.2"
   },
   "scripts": {
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
   }
 }
